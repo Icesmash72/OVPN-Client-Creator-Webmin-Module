@@ -1,0 +1,20 @@
+# /usr/share/webmin/ovpncreator/lang/en
+
+index_title=OpenVPN Client Creator
+index_welcome=Welcome to your custom VPN management module!
+index_module=OpenVPN Client Creator
+index_create_client_header=Create New VPN Client
+index_client_name=Client Name
+index_client_password=Client Key Password
+index_create_button=Create Client
+
+create_success=Client %s created successfully! <a href="%s">Download .ovpn file</a>
+create_error=Error creating client %s: %s
+download_link_text=Download %s.ovpn
+
+config_title=Module Configuration
+config_header=OpenVPN Server Settings
+config_easy_rsa_path=Easy-RSA Directory Path
+config_keys_base_dir=PKI Base Directory
+config_output_base_dir=Output Directory for .ovpn files
+config_server_public_ip=Server Public IP or Hostname

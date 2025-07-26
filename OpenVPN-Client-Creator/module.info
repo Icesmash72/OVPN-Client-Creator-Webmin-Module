@@ -1,0 +1,4 @@
+desc=OpenVPN Client Creator
+version=1.0
+category=net
+config_info=ovpncreator
