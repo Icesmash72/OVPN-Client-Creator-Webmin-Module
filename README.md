@@ -111,7 +111,7 @@ This is the safest and easiest way to ensure everything is set up correctly.
 
 1. In Webmin, go to **Webmin** \-\> **Webmin Configuration** \-\> **Webmin Modules**.  
 2. Select your old "OpenVPN Client Creator" module from the list and use the **Delete** button to uninstall it completely.  
-3. Download the ovpncreator-v1.1.zip file from this release page (see the "Assets" section below).  
+3. Download the ovpncreator-v1.1.wbm file from this release page (see the "Assets" section below).  
 4. From the Webmin Modules page, choose to install a module **From uploaded file** and select the .zip file you just downloaded.  
 5. After installation, go to the module's main page and re-enter your configuration settings.
 
