@@ -69,10 +69,6 @@ print &ui_table_row($text{'config_server_public_ip'},
 
 # ... (inside the MODULE CONFIGURATION SECTION table) ...
 
-# Input field for the OpenVPN server's public IP address
-print &ui_table_row($text{'config_server_public_ip'},
-                    &ui_textbox("server_public_ip", $config{'server_public_ip'}, 40));
-
 # --- NEW: Field for Sender Email Address ---
 print &ui_table_row("Sender Email Address",
                     &ui_textbox("sender_email", $config{'sender_email'}, 60));

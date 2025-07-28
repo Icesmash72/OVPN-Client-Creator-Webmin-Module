@@ -31,3 +31,14 @@ This version introduces major new features focused on user experience and flexib
 
 ---
 
+---
+
+**Changelog for OpenVPN Client Creator Webmin Module**
+
+### **Version 1.1.1 \- 2025-07-27 (or today's date)**
+
+**Bug Fixes:**
+
+* **Resolved Hostname Duplication in .ovpn Files:** Fixed an issue where the server hostname would appear twice (e.g., remote yourdomain.comnulyourdomain.com) in the generated .ovpn client configuration files. This was caused by a duplicate input field definition for the server public IP/hostname in the main interface.  
+* **Eliminated NULL Characters in Hostname:** Addressed a bug that could cause "NULL" or other unprintable characters to appear within the server hostname in the .ovpn file. The server IP/hostname is now properly sanitized during client file generation to prevent such corruption.
+

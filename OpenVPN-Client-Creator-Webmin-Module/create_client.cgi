@@ -69,7 +69,10 @@ my $easy_rsa_path = $config{'easy_rsa_path'};
 my $keys_base_dir = $config{'keys_base_dir'};
 my $output_base_dir = $config{'output_base_dir'};
 my $server_ip = $config{'server_public_ip'};
-
+# Clean the server_ip to remove potential null bytes or non-printable characters
+# and trim leading/trailing whitespace.
+$server_ip =~ s/[\x00-\x1F\x7F]//g; # Removes ASCII control characters (0x00 to 0x1F) and DEL (0x7F)
+$server_ip =~ s/^\s+|\s+$//g;     # Trims leading and trailing whitespace
 # --- 2. Auto-Setup Output Directory ---
 print "--- Step 2: Preparing Output Directory ---\n";
 make_path($output_base_dir, { mode => 0700 }) unless -d $output_base_dir;
