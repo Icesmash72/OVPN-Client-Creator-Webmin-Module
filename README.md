@@ -1,4 +1,4 @@
-# **OpenVPN Client Creator for Webmin**
+# **OVPN Client Creator for Webmin**
 
 A simple Webmin module to create OpenVPN client configuration files (.ovpn) through an easy-to-use web interface. This module automates the process of generating client keys, signing certificates, and bundling everything into a single archive, ready for distribution via **direct download or email**.
 
@@ -111,7 +111,7 @@ This is the safest and easiest way to ensure everything is set up correctly.
 
 1. In Webmin, go to **Webmin** \-\> **Webmin Configuration** \-\> **Webmin Modules**.  
 2. Select your old "OpenVPN Client Creator" module from the list and use the **Delete** button to uninstall it completely.  
-3. Download the ovpncreator-v1.1.zip file from this release page (see the "Assets" section below).  
+3. Download the ovpncreatorv1.1.1.wbm.gz file from this release page (see the "Assets" section below).  
 4. From the Webmin Modules page, choose to install a module **From uploaded file** and select the .zip file you just downloaded.  
 5. After installation, go to the module's main page and re-enter your configuration settings.
 
@@ -154,9 +154,15 @@ This project is licensed under the MIT License \- see the LICENSE file for detai
 ---
 
 ## 
+## Disclaimer
 
-## **Disclaimer**
+This project is an independent piece of software and is not affiliated with, sponsored by, or endorsed by OpenVPN Inc. or the developers of Webmin.
 
+All product names, logos, and brands are property of their respective owners.
+
+* **OpenVPN** is a registered trademark of OpenVPN Inc.
+* **Webmin** is a registered trademark of its respective owners.
+* 
 This software is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
 
 ---
