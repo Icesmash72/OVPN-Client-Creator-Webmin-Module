@@ -156,6 +156,7 @@ This project is licensed under the MIT License \- see the LICENSE file for detai
 ## 
 ## Disclaimer
 
+<<<<<<< Updated upstream
 This project is an independent piece of software and is not affiliated with, sponsored by, or endorsed by OpenVPN Inc. or the developers of Webmin.
 
 All product names, logos, and brands are property of their respective owners.
@@ -163,6 +164,13 @@ All product names, logos, and brands are property of their respective owners.
 * **OpenVPN** is a registered trademark of OpenVPN Inc.
 * **Webmin** is a registered trademark of its respective owners.
 * 
+=======
+## **Disclaimer**
+This project is an independent piece of software and is not affiliated with, sponsored by, or endorsed by OpenVPN Inc. or the developers of Webmin.
+All product names, logos, and brands are property of their respective owners.
+* **OpenVPN** is a registered trademark of OpenVPN Inc.
+* **Webmin** is a registered trademark of its respective owners.
+>>>>>>> Stashed changes
 This software is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
 
 ---
