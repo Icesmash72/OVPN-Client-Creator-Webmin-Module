@@ -60,7 +60,7 @@ You can install the module using your preferred method.
 
 The first time you use the module, you must configure it to point to your server's specific file locations.
 
-Navigate to the **OpenVPN Client Creator** module in Webmin. Fill out the fields in the **Module Configuration** section:
+Navigate to the **OVPN Client Creator** module in Webmin. Fill out the fields in the **Module Configuration** section:
 
 * **Sender Email Address:** The email address that will appear in the "From" field of sent emails (e.g., noreply@yourdomain.com).  
 * **OpenVPN Keys Base Directory:** This is the most important path. It's the directory where your ca.key and ta.key files are stored (e.g., /etc/openvpn/server/keys).  
@@ -71,7 +71,7 @@ Click the **Create Client** button to save these settings (you can fill in dummy
 
 ## **How to Use**
 
-1. Navigate to the **OpenVPN Client Creator** module in Webmin.  
+1. Navigate to the **OVPN Client Creator** module in Webmin.  
 2. In the **Create New Client** section, enter:  
    * A unique **Client Name** (no spaces or special characters).  
    * A strong **Client Password**. This password encrypts the client's private key.  
